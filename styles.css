@@ -31,7 +31,7 @@ body {
     border-style: solid;
     background-color: aqua;
     height: 40px;
-    padding: 3px;
+    
 }
 
 .mid{
@@ -108,3 +108,11 @@ footer{
     height: 60px;
     
 }
+ .dt{
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    border: solid black 3px;
+    width: 200px;
+    margin-bottom: 5px;
+ }

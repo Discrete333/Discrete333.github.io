@@ -4,21 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css"
-    <title></title>
+    <link rel="stylesheet" href="styles.css">  
+    
+    
 </head>
 <body>
     <div class="top">
         <div class="mh">
             <h2>MyHobbies</h2>
         </div>
+       
 
         <div>
 
         </div>
     </div>
 
+    
+
+    
+    
+
     <div class="mid">
+        <div class="dt">
+        <h1 style="font-size: 20px;" class="ct">Current Date:</h1>
+        <p id="currentDate"></p>
+        </div>
       <div class="c1">
         <div class="h1">
             <h2>Firstly, my top 3 favourite hobbies are:</h2>
@@ -71,6 +82,13 @@
             <a>copyright 2023 Discrete333</a>
 
         </footer>
+       
+        <script>
+            let time = document.getElementById("currentDate");
+
+            let d = new Date();
+            time.innerHTML = d.toLocaleDateString();
+        </script>
     
     
 </body>
