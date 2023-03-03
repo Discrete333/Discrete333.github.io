@@ -17,6 +17,8 @@ body {
     align-items: center;
     background-color: antiquewhite;
     height: 60px;
+    border: solid black px;
+     
 
 
 }
@@ -30,4 +32,79 @@ body {
     background-color: aqua;
     height: 40px;
     padding: 3px;
+}
+
+.mid{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: white;
+    justify-content: center;
+}
+
+.c1{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    border-radius: 10px;
+    align-self: center;
+    font-size: 30px;
+    padding: 5px;
+    
+}
+
+.list {
+    display: flex;
+    font-size: 30px;
+    align-self: center;
+    
+}
+
+ol {
+    margin-top: auto;
+}
+
+.c2{
+    display: flex;
+    padding: 5px;
+    border: solid black 5px;
+    margin-top: 10px;
+    gap: 5px;
+}
+.chess{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.c3 {
+    display: flex;
+    padding: 5px;
+    border: solid black 5px;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+.exercising{
+    display: flex;
+    flex-direction: column;
+}
+.c4{
+    display: flex;
+    padding: 5px;
+    border: solid black 5px;
+    margin-top: 10px;
+    gap: 5px;
+    margin-bottom: 10px;
+
+}
+
+footer{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    height: 60px;
+    
 }
